@@ -20,6 +20,6 @@ To account for unknown lages in the data, I used the LSTM algorithm to process t
 >*LSTM Diagram*
 
 ## Plot
-<img width="575" alt="snppredict" src="https://user-images.githubusercontent.com/48301423/88070193-691bda80-cb40-11ea-921d-2fe7f04a802a.png">
+<img width="1050" alt="snppredict" src="https://user-images.githubusercontent.com/48301423/88070193-691bda80-cb40-11ea-921d-2fe7f04a802a.png">
 
 >*Plot of SNP Predicted vs. Actual Values*
