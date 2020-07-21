@@ -4,13 +4,19 @@
 This is an improvement on my SNP Market Over Time project found here: 
 https://github.com/jazmiahenry/SNPMarketOverTime. 
 
-In this project, I take a deep learning approach to examining SNP market values over time, and compare actual and predicted market values for Q1 and Q@. of 2020 to make a more robust and informative predictive model.
+In this project, I take a deep learning approach to examining SNP market values over time, and compare actual and predicted market values for Q1 and Q2 in of 2020 to make a more robust and informative predictive model. My analysis is able to identify the effect of COVID19 on SNP performance during the first half of this year. 
 
-Due to the strength of recurrent neural networks to process sequential data, I have created a stock prediction model using RNNs. The prediction model training dataset is the daily market values of the *SNP from March 9th, 2009- "rock bottom" of the 2008 financial crisis and the lowest close of the SNP since since September 12, 1996.(https://money.cnn.com/2009/03/09/markets/markets_newyork/)
+Due to the strength of recurrent neural networks to process sequential data, I have created a stock prediction model using RNNs. 
+
+The prediction model training dataset is the daily market values of the *SNP from March 9th, 2009- "rock bottom" of the 2008 financial crisis and the lowest close of the SNP since since September 12, 1996.(https://money.cnn.com/2009/03/09/markets/markets_newyork/)
+
+<img width="647" alt="traindata" src="https://user-images.githubusercontent.com/48301423/88071575-0297bc00-cb42-11ea-86d8-d09e55c3f06d.png">
 
 >*designated by the ^GSPC ticker. 
 
 The test dataseet is the Year-to-Date daily market values of the SNP in 2020.**
+
+<img width="647" alt="testdata" src="https://user-images.githubusercontent.com/48301423/88071355-b51b4f00-cb41-11ea-9f45-5b9d5dc9d09b.png">
 
 >**The data was downloaded from Yahoo Finance.
 
